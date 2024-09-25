@@ -18,7 +18,7 @@ require 'funcion.php'
             for($i=0;$i<=10;$i++){
                 $array[$i]=calcularFactorial($i);
             }
-            print_r($array);
+            //print_r($array);Muestra el array
             for($i=0;$i<count($array);$i++){
                 echo "<tr>";
                 echo "<td>".$i."</td>";
